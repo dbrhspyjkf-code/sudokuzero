@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+*.bmp
+# 大字体: 运行时只需子集; 完整字体按 README 指引获取
+assets/notocjk.ttc
+assets/font-full-backup.ttf
+# 构建产物与中间文件
+pkg/
+dist_deb/
+sysicons/
+icon-v*.png
+icon-badge.png
+icon-glyph.png
+icon-compare.png
+icon.bmp
+shot_*.png
+shot_*.bmp
+fb*.png
+fb*.raw
+status.png
+icon_gen.py
+icon_gen2.py
+.DS_Store
+icon-sheet.png
+assets/NotoSansCJK-Regular.ttc
+*.raw

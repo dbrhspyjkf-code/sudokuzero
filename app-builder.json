@@ -1,0 +1,25 @@
+{
+  "package_name": "sudokuzero",
+  "version": "1.0.0",
+  "app_name": "Sudoku",
+  "bin_name": "sudokuzero",
+  "description": "数独 for CardputerZero - keyboard-first sudoku with unique-solution generator",
+  "store": {
+    "summary": "键盘党的数独：唯一解生成、三档难度、笔记、计时最佳纪录",
+    "description": "为 M5Stack CardputerZero 打造的数独游戏。\n\n· 唯一解谜题生成器（位掩码回溯 + 挖洞唯一性校验）\n· 三档难度：轻松 40 / 标准 32 / 挑战 26 提示数\n· 笔记候选、填错即时标红、同数高亮、每数字余数统计\n· 用时与最佳纪录按难度分别保存\n· 合成音效零素材，游戏内 Fn+S/Fn+D/Fn+A 直接调节系统音量\n· pygame 直写帧缓冲，与系统启动器无缝集成",
+    "categories": ["Games"],
+    "screenshots": ["screenshots/game.png", "screenshots/mid.png", "screenshots/win.png"],
+    "icon": "assets/icon.png",
+    "license": "MIT",
+    "source_repo": "https://github.com/dbrhspyjkf-code/sudokuzero",
+    "author": { "github": "dbrhspyjkf-code", "display_name": "dbrhspyjkf-code" },
+    "share_code": "SDKU",
+    "permissions": {
+      "camera": false, "microphone": false, "imu": false, "network": false,
+      "additional_hardware": false, "background_service": false, "external_display": false
+    },
+    "locales": {
+      "zh-CN": { "title": "数独", "summary": "键盘党的数独：唯一解生成、三档难度、笔记、计时最佳纪录" }
+    }
+  }
+}
